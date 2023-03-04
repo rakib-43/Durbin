@@ -17,7 +17,96 @@
     <!--Custom css link-->
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+ <!--Section 1  Navbar section-->
+ <header class="header_wrapper">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images" class="img-fluid" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <!--<span class="navbar-toggler-icon"></span>-->
+                <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#members">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#events">Our Events</a>
+                    </li>
+                    <li class="nav-item mt-3 mt-lg-0">
+                        <a class="main-btn" href="#contact">Become a member </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>    
+
+<!--Section-2 Banner-->
+<section id="home">
+    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+      <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/Instasize_1230001134.jpg" class="d-block w-100" alt="img-1">
+                <div class="carousel-caption text-center">
+                    <h1>Join with Us</h1>
+                    <p>Durbin a group of passionate students who have a common goal. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/20181223153622_IMG_2928.JPG" class="d-block w-100" alt="img-2">
+                <div class="carousel-caption text-center">
+                    <h1>Be a part of our Family</h1>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/20181223084005_IMG_2686.JPG" class="d-block w-100" alt="img-3">
+                <div class="carousel-caption text-center">
+                    <h1>Together we will make a Dream Bangladesh.</h1>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+
+
+
+   <!-- Bootstrap cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous">
+    </script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!--Custom Js-->
+<script src="script.js"></script>
 </body>
 </html>
