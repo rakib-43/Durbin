@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Poppins:wght@200&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white:#fff;
+    --crime-white:#ecf4fb;
+    --gray-color:#c6c9d8bf;
+    --jellyfish:#46C7C7;
+    --black:  #000000;
+    --off-white: #FAF9F6;
+    --header-white: #f5f2f3;
+
+
+
+
+    /* Text color*/
+    --text-gray:#c6c9d8bf;
+    --shady-black: #333;
+    --text-black: #0C090A;
+}
+body{
+    font-family: var(--primary-font);
+    background-color: var(--crime-white);
+}
+
+ /* 
+ ****************
+ Custom css
+ ****************
+ */
+
+ h1{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+h2{
+    font-weight: 600;
+    font-size: 1.5625rem;
+    text-transform: capitalize;
+    color: var(--black);
+    line-height: 2.5rem;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--black);
+}
+.text{
+    text-align: center;
+}
+
+.main-btn{
+    display: inline-block;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    padding: 10px 27px;
+    background-color: transparent;
+    border:2px solid var(--jellyfish);
+    color: var(--text-black);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.main-btn:hover{
+    background-color: var(--jellyfish);
+    border-color: var(--jellyfish);
+    color: var(--white);
+}
+
+.wrapper{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: var(--white);
+}
+.wrapper1{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: var(--off-white);
+}
