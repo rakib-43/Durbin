@@ -1,0 +1,111 @@
+
+@media(max-width: 524px){
+
+    /*
+***********************
+Section-1 Navbar 
+***********************
+*/
+    .navbar .dummytext{
+        font-size: 23px;
+        margin-left: 10px;
+    }
+
+    .navbar-toggler i{
+        color: black;
+    }
+
+/*
+***********************
+Section-3 About Us
+***********************
+*/
+#about .overlay p{
+    font-size: 13px;
+}
+#about .durbintext{
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+/*
+***********************
+Section-4 Members
+***********************
+*/
+    .swiper .mycon p .span{
+        font-size: 15px;
+    }
+    .swiper .mycon .info p{
+        padding-top: 20px;
+    }
+    .swiper .mycon .info p .respon{
+        font-size: 10px;
+        position: relative;
+        top: 5px;
+     
+    }
+    .swiper .mycon .info a .main-btn1{
+        font-size: 8px;
+        padding: 5px 13px;
+        align-items: center;
+        text-align: center;
+        margin-left: 1.7px;
+    }
+    
+    .swiper .mycon .info{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding-top: 25px;
+    }
+    .swiper .swiper-button-next,
+    .swiper .swiper-button-prev{
+        color: var(--white);
+        display: none;
+}
+
+/*
+***********************
+Section-5 Events
+***********************
+*/
+
+
+    
+    .tab-pane .event-info1 a button{
+        position: absolute;
+        margin-left: 168px;
+    }
+    .tab-pane .event-info1 a .main-btn{
+        font-size:13px;
+    }
+    .tab-pane .event-info2 a button,
+    .tab-pane .event-info3 a button,
+    .tab-pane .event-info4 a button,
+    .tab-pane .event-info5 a button{
+        position: absolute;
+        margin-left: 160px;   
+    }
+    .tab-pane .event-info2 a .main-btn,
+    .tab-pane .event-info3 a .main-btn,
+    .tab-pane .event-info4 a .main-btn,
+    .tab-pane .event-info5 a .main-btn{
+       font-size: 13px; 
+    }
+
+
+
+
+/*
+***********************
+Section-6 Footer 
+***********************
+*/
+    .foter .row .rakib{
+        font-size: 30px;
+    }
+}
